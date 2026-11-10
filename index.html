@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Tselmuun | Student Portfolio</title>
+<meta content="Explore Tselmuun's student portfolio, featuring A-Level subjects, computer science interests, projects, achievements and volunteering." name="description"/>
+<meta content="Tselmuun" name="author"/>
+<meta content="#ffe1e8" name="theme-color"/>
+<link href="favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&amp;family=Figtree:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body id="top">
+<header>
+<div class="nav-container">
+<a class="logo" href="#top">Tselmuun</a>
+<nav aria-label="Main navigation" id="main-menu">
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#subjects">Subjects</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#journey">Journey</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+<div class="header-actions">
+<button aria-label="Switch to dark mode" aria-pressed="false" class="theme-toggle" id="theme-toggle" type="button">
+<span aria-hidden="true" id="theme-icon">☾</span>
+<span id="theme-label">Dark</span>
+</button>
+<button aria-controls="main-menu" aria-expanded="false" aria-label="Open navigation menu" class="menu-toggle" id="menu-toggle" type="button">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</div>
+</div>
+</header>
+<main>
+<section class="hero" id="home">
+<div class="hero-text">
+<h1>Hello, I'm Tselmuun</h1>
+<p>Year 12 student studying IT, Physics and Maths. Aiming for a degree in computer science.</p>
+<a class="button" href="#projects">
+        See My Projects
+      </a>
+</div>
+<div class="hero-note"><aside class="note fade" style="animation-delay:.15s">
+<h3>This year</h3>
+<ul>
+<li>A-levels <b>IT · Physics · Maths</b></li>
+<li>Major<b>Computer Science</b></li>
+<li>Applying to <b>NMU</b></li>
+</ul>
+</aside></div>
+</section>
+<section id="about">
+<h2>About Me</h2>
+<div class="about-content"><p>I’m a curious, organised senior student who enjoys being creative and solving problems. I aspire to create solutions and make real-world impact by pursuing Computer Science.</p><p>Outside lessons I participate in Math Olympiads, tutor younger students and play piano as a hobby.</p><div class="stats">
+<div class="stat"><strong data-count="7">0</strong><span>IGCSEs at A*-C</span></div>
+<div class="stat"><strong data-count="30">0</strong><span>Volunteering hours</span></div>
+<div class="stat"><strong data-count="20">0</strong><span>Students tutored</span></div>
+<div class="stat"><strong data-count="3">0</strong><span>Competitions entered</span></div>
+</div></div>
+
+
+
+</section>
+<section id="subjects">
+<h2>My A-Level Subjects</h2><div aria-label="A-Level subjects" class="subject-tabs" role="tablist"><button aria-controls="subject-panel-0" aria-selected="true" class="subject-tab" id="subject-tab-0" role="tab" tabindex="0" type="button">IT</button><button aria-controls="subject-panel-1" aria-selected="false" class="subject-tab" id="subject-tab-1" role="tab" tabindex="-1" type="button">Physics</button><button aria-controls="subject-panel-2" aria-selected="false" class="subject-tab" id="subject-tab-2" role="tab" tabindex="-1" type="button">Maths</button></div>
+<div aria-labelledby="subject-tab-0" class="subject subject-panel" id="subject-panel-0" role="tabpanel">
+<h3>Information Technology</h3>
+<p>Programming, databases, networks and algorithms, which gives me a strong base for studying computer science at university.</p>
+<p class="subject-grades">Target grade: A*  |  AS level grade: A</p></div>
+<div aria-labelledby="subject-tab-1" class="subject subject-panel" hidden="" id="subject-panel-1" role="tabpanel">
+<h3>Physics</h3>
+<p>Covers mechanics, fields, waves and modern physics, with practical work that builds my skills in measuring, analysing data and evaluating errors.</p>
+<p class="subject-grades">Target grade: B  |  AS level grade: D</p></div>
+<div aria-labelledby="subject-tab-2" class="subject subject-panel" hidden="" id="subject-panel-2" role="tabpanel">
+<h3>Mathematics</h3>
+<p>Pure maths, probability and statistics, giving me the problem-solving and data skills I need for a computer science degree.</p>
+<p class="subject-grades">Target grade: B  |  AS level grade: C</p></div>
+</section>
+<section id="projects">
+<h2>Projects and Achievements</h2><div aria-label="Filter projects" class="project-filters" role="group"><button aria-pressed="true" class="project-filter active" data-filter="all" type="button">All</button><button aria-pressed="false" class="project-filter" data-filter="science" type="button">Tech &amp; Science</button><button aria-pressed="false" class="project-filter" data-filter="maths" type="button">Maths</button><button aria-pressed="false" class="project-filter" data-filter="community" type="button">Community &amp; Activities</button></div>
+<div class="projects-container"><article class="project-card" data-category="science"><span class="project-tag">Coding</span><h3>Portfolio website</h3><p>Created my own Portfolio website by learning HTML, CSS and JavaScript as part of my DofE Skills Section. It has a responsive layout, a dark mode toggle, filterable projects and tabbed subject pages.</p></article><article class="project-card" data-category="maths"><span class="project-tag">Competitions</span><h3>Kangaroo 2025</h3><p>Awarded a Second-Degree Diploma in the Kangaroo 2025 Math competition</p></article><article class="project-card" data-category="maths"><span class="project-tag">Competitions</span><h3>MAIS Math Olympiad 2025</h3><p>Ranked 4th place out of 23 students participated.</p></article><article class="project-card" data-category="maths"><span class="project-tag">Competitions</span><h3>MAIS Math Olympiad 2026</h3><p>Ranked 5th place out of 31 students participated.</p></article><article class="project-card" data-category="community"><span class="project-tag">Research essay</span><h3>Online learning and the digital divide</h3><p>Wrote a 1800-word research essay arguing that online learning widens inequality unless public policy gives low-income and rural students real access and support.</p></article><article class="project-card" data-category="community"><span class="project-tag">Volunteering</span><h3>World Cleanup Day</h3><p>Participated in World Cleanup Day 2025 (CleanUP Mongolia-5), contributing to environmental conservation through community cleanup activities in Ulaanbaatar.</p></article><article class="project-card" data-category="community"><span class="project-tag">DofE</span><h3>Duke of Edinburgh’s Silver Award</h3><p>Working towards the Silver Award with table tennis as my physical activity, web development as my skill and tutoring as my volunteering, plus a team expedition. It’s building my teamwork, resilience and time management alongside my A-levels.</p></article><article class="project-card" data-category="community"><span class="project-tag">Volunteering</span><h3>English tutoring</h3><p>Weekly English tutoring for 26 weeks as part of my DofE Silver volunteering, with 20 students improving by at least one level, from A1-A2 to B1.</p></article></div>
+</section>
+<section id="journey">
+<h2>My Journey</h2>
+<ul><li>Sept 2023 — Accepted to Mongol Aspiration International School</li><li>Mar 2025 — Kangaroo 2025 Second-degree diploma</li><li>Oct 2025 — Started DofE Silver Award programme</li><li>Dec 2025-June 2026 — Volunteered teaching English language to 5,7,10th grade students who were falling behind in their studies</li><li>Oct 2026 — Ranked 5th place in School Math Olympiad</li></ul>
+</section>
+<section id="contact">
+<h2>Contact Me</h2>
+<p>
+      You can send me a message using the form below.
+    </p>
+<form id="contact-form">
+<div class="form-group">
+<label for="name">Name:</label>
+<input autocomplete="name" id="name" maxlength="100" name="name" placeholder="Your name" required="" type="text"/>
+</div>
+<div class="form-group">
+<label for="email">Email:</label>
+<input autocomplete="email" id="email" name="email" placeholder="Your email" required="" type="email"/>
+</div>
+<div class="form-group">
+<label for="message">Message:</label>
+<textarea id="message" maxlength="3000" name="message" placeholder="Write your message" required=""></textarea>
+</div>
+<button id="send-button" type="submit">
+        Send Message
+      </button>
+<p aria-live="polite" id="form-status" role="status"></p>
+</form>
+</section>
+</main>
+<a aria-label="Back to top" class="back-to-top" href="#top">↑</a>
+<footer>
+<p>My Portfolio | 2026</p>
+</footer>
+<script defer="" src="script.js"></script>
+</body>
+</html>
